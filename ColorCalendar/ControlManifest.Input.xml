@@ -1,0 +1,14 @@
+<manifest>
+  <control namespace="PCFCalendar" constructor="PCFCalendar" version="1.0.0" display-name-key="PCFCalendar" description-key="PCFCalendar" control-type="standard">
+    <property name="startDate" display-name-key="StartDate" description-key="StartDateDescription" of-type="DateAndTime.DateOnly" usage="bound" />
+    <property name="endDate" display-name-key="EndDate" description-key="EndDateDescription" of-type="DateAndTime.DateOnly" usage="bound" />
+    <!-- description property removed since it's not used in the updated component -->
+    <!-- reminderTime property removed since it's not used in the updated component -->
+    <!-- notes property removed since it's not used in the updated component -->
+    <property name="jsonData" display-name-key="JSONData" description-key="JSONDataDescription" of-type="SingleLine.Text" usage="output" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <!-- Diğer kaynaklar buraya eklenebilir -->
+    </resources>
+  </control>
+</manifest>
